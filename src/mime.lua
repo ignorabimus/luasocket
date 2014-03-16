@@ -11,6 +11,7 @@
 local base = _G
 local ltn12 = require("ltn12")
 local mime = require("mime.core")
+_G.mime = mime
 local io = require("io")
 local string = require("string")
 module("mime")
